@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "PermissionManage.h"
 
 @interface ViewController ()
 
@@ -17,6 +18,22 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+}
+
+- (IBAction)cameraAction:(id)sender {
+  [PermissionManage requestCameraPermissionWithViewController:self];
+}
+
+- (IBAction)microphoneAction:(id)sender {
+  [PermissionManage requestMicrophonePermissionWithViewController:self];
+}
+
+- (IBAction)photoAction:(id)sender {
+  [PermissionManage requestPhotoPermissionWithViewController:self];
+}
+
+- (IBAction)locationAction:(id)sender {
+  [PermissionManage requestLocationPermissionWithViewController:self];
 }
 
 - (void)didReceiveMemoryWarning {

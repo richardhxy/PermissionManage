@@ -16,6 +16,7 @@
 		55D2557C1E4CA81300FFFC64 /* PermissionManage.m in Sources */ = {isa = PBXBuildFile; fileRef = 55D2557B1E4CA81300FFFC64 /* PermissionManage.m */; };
 		55D2557E1E4CABAD00FFFC64 /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55D2557D1E4CABAD00FFFC64 /* Photos.framework */; };
 		55D255801E4CAEB800FFFC64 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55D2557F1E4CAEB800FFFC64 /* AVFoundation.framework */; };
+		79000E9A1E4D4ACA008B86E2 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79000E991E4D4ACA008B86E2 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		55D2557B1E4CA81300FFFC64 /* PermissionManage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PermissionManage.m; sourceTree = "<group>"; };
 		55D2557D1E4CABAD00FFFC64 /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
 		55D2557F1E4CAEB800FFFC64 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		79000E991E4D4ACA008B86E2 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +42,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79000E9A1E4D4ACA008B86E2 /* CoreLocation.framework in Frameworks */,
 				55D255801E4CAEB800FFFC64 /* AVFoundation.framework in Frameworks */,
 				55D2557E1E4CABAD00FFFC64 /* Photos.framework in Frameworks */,
 			);
@@ -51,6 +54,7 @@
 		55D255571E4CA73300FFFC64 = {
 			isa = PBXGroup;
 			children = (
+				79000E991E4D4ACA008B86E2 /* CoreLocation.framework */,
 				55D2557F1E4CAEB800FFFC64 /* AVFoundation.framework */,
 				55D2557D1E4CABAD00FFFC64 /* Photos.framework */,
 				55D255621E4CA73300FFFC64 /* PermissionManage */,
@@ -316,6 +320,7 @@
 				55D255791E4CA73300FFFC64 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

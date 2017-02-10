@@ -30,11 +30,17 @@
 	<array>
 		<string>armv7</string>
 	</array>
+	<key>NSLocationUsageDescription</key>
+	<string>App使用定位才能更好的服务</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>只有开启定位服务才能更好地体验APP</string>
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>只有开启定位服务才能更好地体验APP</string>
 </dict>
 </plist>
